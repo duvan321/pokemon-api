@@ -17,8 +17,8 @@ const Detail = () => {
   return (
     <div className="cards">
       <div className="card">
-        <p>{pokemon.id}</p>
-        <h2>{pokemon.name && pokemon.name}</h2>
+        <p className="id">{pokemon.id}</p>
+        <h2 className="name">{pokemon.name && pokemon.name}</h2>
         <img
           className="pokemon-image"
           src={

@@ -10,6 +10,9 @@ const Navbar = ({ onSearch }) => {
       <Link to="/home">
         <button className="botone1">Home</button>
       </Link>
+      <Link to="/">
+        <button className="botone3">Salir</button>
+      </Link>
     </div>
   );
 };

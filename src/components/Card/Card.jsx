@@ -5,6 +5,7 @@ const Card = (props) => {
   return (
     <div className="card">
       <button
+        className="x"
         onClick={() => {
           props.onClose(props.id);
         }}
@@ -14,8 +15,7 @@ const Card = (props) => {
 
       <img src={imageUrl} alt={props.name} className="pokemon-image" />
 
-      <h3>{props.id}</h3>
-      <Link to={`/detail/${props.id}`}>
+      <Link className="name" to={`/detail/${props.id}`}>
         <h2>{props.name}</h2>{" "}
       </Link>
     </div>

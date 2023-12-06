@@ -52,7 +52,7 @@ const Form = ({ login }) => {
         />
         {errors.p1 ? <p>{errors.p1}</p> : <p>{errors.p2}</p>}
         <br />
-        <button>Submit</button>
+        <button className="submit">Submit</button>
       </form>
     </div>
   );
