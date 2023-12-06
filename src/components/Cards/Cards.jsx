@@ -3,7 +3,7 @@ import React from "react";
 function Cards({ pokemones, onClose }) {
   return (
     <div className="cards">
-      {pokemones.map(({ id, name, sprites }, index) => {
+      {pokemones.map(({ id, name, sprites }) => {
         const imageUrl = sprites ? sprites.other.dream_world.front_default : "";
 
         return (

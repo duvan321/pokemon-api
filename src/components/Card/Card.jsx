@@ -5,7 +5,6 @@ const Card = (props) => {
   return (
     <div className="card">
       <button
-        className="x"
         onClick={() => {
           props.onClose(props.id);
         }}
